@@ -13,6 +13,11 @@ class Vector {
     var x: Float
     var y: Float
     
+    // Computed Properties
+    var magnitude: Float {
+        get { return sqrt(x*x + y*y) }
+    }
+    
     // Initializer
     init(xAxisValue px: Float, yAxisValue py: Float) {
         x = px
