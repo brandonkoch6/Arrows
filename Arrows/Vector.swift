@@ -16,6 +16,9 @@ class Vector {
     // Computed Properties
     var magnitude: Float {
         get { return sqrt(x*x + y*y) }
+        set {
+            scaleBy(scalar: newValue/magnitude)
+        }
     }
     
     // Initializer
