@@ -43,4 +43,8 @@ class Vector {
     }
 }
 
+func +(v1: Vector, v2: Vector) -> Vector {
+    return Vector(xAxisValue: v1.x + v2.x , yAxisValue: v1.y + v2.y)
+}
+
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8A4EEFE1E36DA48006C8424 /* VectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4EEFD1E36DA48006C8424 /* VectorView.swift */; };
+		C8A4EF001E36DD0B006C8424 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A4EEFF1E36DD0B006C8424 /* Default-568h@2x.png */; };
 		C8E070851E303F8B00D8A217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E070841E303F8B00D8A217 /* AppDelegate.swift */; };
 		C8E070871E303F8B00D8A217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E070861E303F8B00D8A217 /* ViewController.swift */; };
 		C8E0708C1E303F8B00D8A217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E0708B1E303F8B00D8A217 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8A4EEFD1E36DA48006C8424 /* VectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorView.swift; sourceTree = "<group>"; };
+		C8A4EEFF1E36DD0B006C8424 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C8E070811E303F8B00D8A217 /* Arrows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E070841E303F8B00D8A217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8E070861E303F8B00D8A217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,7 @@
 		C8E070781E303F8A00D8A217 = {
 			isa = PBXGroup;
 			children = (
+				C8A4EEFF1E36DD0B006C8424 /* Default-568h@2x.png */,
 				C8E070831E303F8B00D8A217 /* Arrows */,
 				C8E070821E303F8B00D8A217 /* Products */,
 			);
@@ -57,6 +62,7 @@
 				C8E070861E303F8B00D8A217 /* ViewController.swift */,
 				C8E0708B1E303F8B00D8A217 /* Assets.xcassets */,
 				C8E070901E303F8B00D8A217 /* Info.plist */,
+				C8A4EEFD1E36DA48006C8424 /* VectorView.swift */,
 			);
 			path = Arrows;
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E0708C1E303F8B00D8A217 /* Assets.xcassets in Resources */,
+				C8A4EF001E36DD0B006C8424 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E070871E303F8B00D8A217 /* ViewController.swift in Sources */,
+				C8A4EEFE1E36DA48006C8424 /* VectorView.swift in Sources */,
 				C8E070971E30403100D8A217 /* Vector.swift in Sources */,
 				C8E070851E303F8B00D8A217 /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +284,7 @@
 				C8E070951E303F8B00D8A217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

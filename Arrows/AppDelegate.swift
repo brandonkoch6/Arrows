@@ -1,4 +1,3 @@
-//
 //  AppDelegate.swift
 //  Arrows
 //
@@ -17,7 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let v: Vector = Vector(xAxisValue: 10.0, yAxisValue: 10.0)
+        window = UIWindow()
+        window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
+        
+        let vectorView: VectorView = VectorView()
+        vectorView.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 300.0)
+        vectorView.backgroundColor = UIColor.lightGray
+        window?.rootViewController?.view.addSubview(vectorView)
+        
         return true
     }
 
