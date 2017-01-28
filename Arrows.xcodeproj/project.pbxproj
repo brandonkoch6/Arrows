@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84934211E397C0200DC2A78 /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84934201E397C0200DC2A78 /* KnobView.swift */; };
 		C8A4EEFE1E36DA48006C8424 /* VectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A4EEFD1E36DA48006C8424 /* VectorView.swift */; };
 		C8A4EF001E36DD0B006C8424 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A4EEFF1E36DD0B006C8424 /* Default-568h@2x.png */; };
 		C8E070851E303F8B00D8A217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E070841E303F8B00D8A217 /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C84934201E397C0200DC2A78 /* KnobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobView.swift; sourceTree = "<group>"; };
 		C8A4EEFD1E36DA48006C8424 /* VectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorView.swift; sourceTree = "<group>"; };
 		C8A4EEFF1E36DD0B006C8424 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C8E070811E303F8B00D8A217 /* Arrows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrows.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 				C8E0708B1E303F8B00D8A217 /* Assets.xcassets */,
 				C8E070901E303F8B00D8A217 /* Info.plist */,
 				C8A4EEFD1E36DA48006C8424 /* VectorView.swift */,
+				C84934201E397C0200DC2A78 /* KnobView.swift */,
 			);
 			path = Arrows;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E070871E303F8B00D8A217 /* ViewController.swift in Sources */,
+				C84934211E397C0200DC2A78 /* KnobView.swift in Sources */,
 				C8A4EEFE1E36DA48006C8424 /* VectorView.swift in Sources */,
 				C8E070971E30403100D8A217 /* Vector.swift in Sources */,
 				C8E070851E303F8B00D8A217 /* AppDelegate.swift in Sources */,
