@@ -20,10 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = ViewController()
         window?.makeKeyAndVisible()
         
-        let vectorView: VectorView = VectorView()
-        vectorView.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 300.0)
-        vectorView.backgroundColor = UIColor.lightGray
-        window?.rootViewController?.view.addSubview(vectorView)
+        //let vectorView: VectorView = VectorView()
+        //vectorView.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 300.0)
+        //vectorView.backgroundColor = UIColor.lightGray
+        //vectorView.vectors = [Vector(xAxisValue: 10.0, yAxisValue: 30.0),Vector(xAxisValue: 100.0, yAxisValue: 200.0),Vector(xAxisValue: 25.0, yAxisValue: 0.0),Vector(xAxisValue: 300.0, yAxisValue: 45.0)]
+        //window?.rootViewController?.view.addSubview(vectorView)
+        
+        let knobView: KnobView = KnobView()
+        knobView.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 300.0)
+        knobView.backgroundColor = UIColor.green
+        window?.rootViewController?.view.addSubview(knobView)
         
         return true
     }
