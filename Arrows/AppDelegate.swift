@@ -11,6 +11,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    private var knobView: KnobView? = nil
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -26,12 +27,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //vectorView.vectors = [Vector(xAxisValue: 10.0, yAxisValue: 30.0),Vector(xAxisValue: 100.0, yAxisValue: 200.0),Vector(xAxisValue: 25.0, yAxisValue: 0.0),Vector(xAxisValue: 300.0, yAxisValue: 45.0)]
         //window?.rootViewController?.view.addSubview(vectorView)
         
-        let knobView: KnobView = KnobView()
-        knobView.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 300.0)
-        knobView.backgroundColor = UIColor.green
-        window?.rootViewController?.view.addSubview(knobView)
+        knobView = KnobView()
+        knobView?.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 400.0)
+        knobView?.backgroundColor = UIColor.green
+        window?.rootViewController?.view.addSubview(knobView!)
+        
+        knobView?.addTarget(self, action: #selector(knobChanged), for: UIControlEvents.valueChanged)
         
         return true
+    }
+    func knobChanged() {
+        NSLog("Changed to \(knobView!.angle)")
+        knobView?.angle = 0.1
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
